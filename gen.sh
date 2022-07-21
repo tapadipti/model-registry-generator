@@ -78,11 +78,11 @@ tick
 git commit -m 'Created first version of image-classifier-model'
 
 git tag -a "image-classifier-model@v1.0.0" -m "Register version v1.0.0"
-git tag -a "image-classifier-model#development#1" -m "Promote version v1.0.0 to the development stage"
+git tag -a "image-classifier-model#development#1" -m "Assign the development stage to the version v1.0.0"
 tick
-git tag -a "image-classifier-model#staging#1" -m "Promote version v1.0.0 to the staging stage"
+git tag -a "image-classifier-model#staging#1" -m "Assign the staging stage to version v1.0.0"
 tick
-git tag -a "image-classifier-model#production#1" -m "Promote version v1.0.0 to the production stage"
+git tag -a "image-classifier-model#production#1" -m "Assign the production stage to version v1.0.0"
 tick
 
 # v1.0.1
@@ -95,9 +95,9 @@ tick
 git commit -m 'Created patch version 1.0.1 of image-classifier-model'
 
 git tag -a "image-classifier-model@v1.0.1" -m "Register version v1.0.1"
-git tag -a "image-classifier-model#development#2" -m "Promote version v1.0.1 to the development stage"
+git tag -a "image-classifier-model#development#2" -m "Assign the development stage to version v1.0.1"
 tick
-git tag -a "image-classifier-model#staging#2" -m "Promote version v1.0.1 to the staging stage"
+git tag -a "image-classifier-model#staging#2" -m "Assign the staging stage to version v1.0.1"
 
 
 # v2.0.0
@@ -121,8 +121,8 @@ git commit -m 'Created face detection yolov5 model'
 tick
 
 git tag -a "face-detection-yolov5@v3.1.5" -m "Register version v3.1.5"
-git tag -a "face-detection-yolov5#staging#1" -m "Promote version v3.1.5 to the staging stage"
-git tag -a "face-detection-yolov5#production#1" -m "Promote version v3.1.5 to the production stage"
+git tag -a "face-detection-yolov5#staging#1" -m "Assign the staging stage to version v3.1.5"
+git tag -a "face-detection-yolov5#production#1" -m "Assign the production stage to version v3.1.5"
 tick
 
 echo "This is face-detection-rcnn" > models/face-detection-rcnn.h5
@@ -132,7 +132,7 @@ git commit -m 'Created face detection rcnn model'
 tick
 
 git tag -a "face-detection-rcnn@v2.3.0" -m "Register version v2.3.0"
-git tag -a "face-detection-rcnn#development#1" -m "Promote version v2.3.0 to the development stage"
+git tag -a "face-detection-rcnn#development#1" -m "Assign the development stage to version v2.3.0"
 
 popd
 
@@ -210,8 +210,8 @@ git commit -m 'Created review-sentiment-analysis model'
 tick
 
 git tag -a "review-sentiment-analysis@v3.1.5" -m "Register version v3.1.5"
-git tag -a "review-sentiment-analysis#staging#1" -m "Promote version v3.1.5 to the staging stage"
-git tag -a "review-sentiment-analysis#production#1" -m "Promote version v3.1.5 to the production stage"
+git tag -a "review-sentiment-analysis#staging#1" -m "Assign the staging stage to version v3.1.5"
+git tag -a "review-sentiment-analysis#production#1" -m "Assign the production stage to version v3.1.5"
 tick
 
 popd
